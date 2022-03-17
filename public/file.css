@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-image: url("template.jpg");
+    margin-top: 0%;
+
+}
+.header{
+    padding: 10px;
+    display: block;
+    background-color: rgb(26, 26, 175);
+    display: flex;
+    align-items: center;
+    top: 0;
+    width: 100%;
+    margin-left: -10px;
+    opacity: 0.9;
+
+}
+#panel, #name {
+    padding: 5px;
+    text-align: center;
+}
+  
+#panel{
+    padding: 50px;
+    display: none;
+}
+.arrow, .arrow-ed, .arrow-sk, .arrow-at, .arrow-l, .arrow-side{
+    float: right;
+}
+.nameBox{
+    padding: 2%;
+    color: rgb(224, 98, 24);
+    display: inline;
+    align-items: center;
+    float: left;
+    width: 15%;
+}
+.menuBox{
+    justify-content: center;
+    text-align: center;
+    width: 91%;
+    border-radius: 10px;
+}
+#list-items{
+    padding: 22px;
+    display: inline;
+}
+#list-items:hover{
+    background-color: rgb(224, 98, 24);
+    border-radius: 10px;
+    transition: 0.5s;
+    
+}
+.menuBox li a{
+    text-decoration: none;
+    color: white;
+}
+.imageBox{
+    border: 6px double black;
+    border-radius: 10px;
+    
+    display: flex;
+
+}
+.imageBox img{
+    border-radius: 10px;
+    width: 170px;
+}
+.imageBox img:hover{
+    size: 12px;
+    transition: 0.5s;
+    border-radius: 15px;
+    width: 180px;
+}
+.body-content{
+    padding: 2%;
+    width: 70%;
+    background-color: white;
+    float: left;
+}
+.side-bar{
+    padding: 2%;
+    width: 22%;
+    display: inline-block;
+    background-color: rgb(192, 70, 0);
+    
+}
+.side-bar a{
+    color: black;
+    text-decoration: none;
+}
+#contact-links a:hover{
+    color: blue;
+    transition: 0.5s;
+}
+
+.pf{
+    border-bottom: 2px solid rgb(224, 98, 24);
+
+
+}
+#edu-list li{
+    padding: 5px;
+    font-size: 18px;
+    list-style: none;
+}
+
+.skills-div{
+    float: left;
+    width: 50%;
+
+}
+#skills-li{
+    font-size: 18px;
+    list-style: none;
+}
